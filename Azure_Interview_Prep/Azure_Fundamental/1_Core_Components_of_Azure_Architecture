@@ -1,0 +1,43 @@
+Core Component of Azure Architecture
+Answer:
+Azure’s architecture encompasses foundational components, providing the backbone for the platform’s versatile cloud services.
+
+Core Components
+Management Plane: Facilitates resource governance and management. It includes Azure Resource Manager (ARM), responsible for provisioning and lifecycle management of Azure resources.
+
+Control Plane: Enforces Azure’s defined state, regulating resource operations. Here, Azure Resource Manager and Azure Policy ensure conformance with policies and configurations.
+
+Data Plane: Regulates the flow and accessibility of user data. Services like Blob Storage, Cosmos DB, and more utilize the Data Plane.
+
+Global Network: Serves as Azure’s backbone, offering a low-latency, high-bandwidth network. This network underpins various Azure services, enhancing their efficiency.
+
+Identity: Azure Active Directory (AAD) plays a central role in identity management. It authenticates and authorizes users and services, ensuring secure access to Azure resources.
+
+Security & Compliance: Azure’s dedicated teams manage security and regulatory compliance, safeguarding customer data.
+
+Billing: Azure utilities a metered billing model, where customers pay based on resource usage.
+
+Core Areas of Focus
+Infrastructure as a Service (IaaS): Offers virtualized computing resources over the internet. Azure VMs are one example, providing a choice of operating systems and flexibility in deploying software.
+
+Platform as a Service (PaaS): Provides tools and services to streamline application development and management. Azure App Service is a PaaS offering catering to web and mobile app development with features like automatic scaling and continuous integration.
+
+Software as a Service (SaaS): Here, cloud-based software is delivered over the internet, eliminating the need for installation or software maintenance. Office 365, OneDrive, and Teams showcase Azure’s SaaS capabilities.
+
+Serverless Computing: Azure offers serverless solutions such as Azure Functions and Logic Apps, allowing developers to focus solely on their code, without any server management.yme
+
+Supporting Services
+Azure Resource Manager
+Azure Resource Manager (ARM) is at the heart of the Azure Management Plane, orchestrating the deployment and management of resources across various Azure services.
+
+Azure Active Directory
+Azure AD powers Azure’s identity and access management, streamlining user authentication and resource authorization across Azure’s multifaceted environment.
+
+Azure Policy
+Azure Policy ensures regulatory compliance and governance by enforcing rules and regulations within your Azure infrastructure, thereby confirming resources remain aligned with your specific regulatory and operational guidelines.
+
+Azure Service Health
+Service Health provides comprehensive insights into the health and state of Azure services, along with timely updates, mitigating potential issues and optimizing your Azure experience.
+
+Azure Monitor
+As your go-to solution for in-depth operational visibility, Azure Monitor efficiently oversees the performance and characteristics of your Azure environment.
